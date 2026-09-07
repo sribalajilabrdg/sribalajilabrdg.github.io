@@ -1,28 +1,907 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Sri Balaji Clinical Lab | Rayadurg</title>
-<meta name="description" content="Sri Balaji Clinical Lab, Rayadurg — reliable diagnostic laboratory services with 24/7 home sample collection.">
+
+<meta name="description" content="Sri Balaji Clinical Lab, Rayadurg - Clinical laboratory services and home sample collection.">
+
 <style>
-:root{--navy:#172a52;--blue:#285a9f;--sky:#eaf4ff;--coral:#d96f5f;--gold:#c99f62;--ink:#172033;--muted:#63708a;--white:#fff;--line:#e4eaf3;--shadow:0 18px 50px rgba(23,42,82,.12)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fbfcff;line-height:1.6}a{text-decoration:none;color:inherit}.wrap{max-width:1160px;margin:auto;padding:0 22px}
-header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand img{height:58px;width:auto;display:block}.links{display:flex;gap:24px;font-size:14px;font-weight:700;color:#45536c}.links a:hover{color:var(--blue)}.navbtn{background:var(--navy);color:#fff;padding:11px 17px;border-radius:12px;font-weight:800;font-size:14px}
-.hero{padding:82px 0 74px;background:radial-gradient(circle at 80% 20%,#e8f4ff 0,transparent 38%),linear-gradient(135deg,#fff 0%,#f5f9ff 100%);position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-130px;bottom:-180px;width:420px;height:420px;border-radius:50%;border:70px solid rgba(217,111,95,.08)}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center;position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);padding:7px 12px;border-radius:999px;color:var(--blue);font-weight:800;font-size:12px;letter-spacing:.04em;text-transform:uppercase;box-shadow:0 8px 25px rgba(23,42,82,.06)}h1{font-size:clamp(38px,6vw,68px);line-height:1.05;margin:18px 0 12px;color:var(--navy);letter-spacing:-.04em}h1 span{color:var(--coral)}.tag{font-size:19px;color:var(--muted);margin:0 0 25px}.telugu{font-family:"Noto Sans Telugu","Nirmala UI",system-ui,sans-serif}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:13px;font-weight:800}.primary{background:var(--navy);color:#fff;box-shadow:0 12px 25px rgba(23,42,82,.2)}.secondary{background:#fff;border:1px solid var(--line);color:var(--navy)}.hero-card{background:#fff;border:1px solid var(--line);border-radius:26px;padding:26px;box-shadow:var(--shadow)}.hero-card img{width:100%;max-width:360px;display:block;margin:auto}.badge{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}.badge div{padding:14px;background:var(--sky);border-radius:15px}.badge b{display:block;color:var(--navy);font-size:18px}.badge small{color:var(--muted)}
-section{padding:78px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}.section-head h2{font-size:36px;line-height:1.15;margin:0 0 10px;color:var(--navy)}.section-head p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 10px 35px rgba(23,42,82,.06)}.icon{font-size:28px}.card h3{margin:10px 0 4px;color:var(--navy)}.card p{margin:0;color:var(--muted);font-size:14px}.tests{background:#f4f8fd}.feature{display:grid;grid-template-columns:1fr 1fr;gap:20px}.feature .card{display:flex;gap:18px;align-items:flex-start}.feature .icon{background:var(--sky);border-radius:14px;padding:10px;font-size:24px}.hours{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:780px;margin:auto}.hours .card{display:flex;justify-content:space-between;gap:20px}.hours strong{color:var(--navy)}.home{background:linear-gradient(135deg,var(--navy),#234b86);color:#fff}.home .section-head h2,.home .section-head p{color:#fff}.home .card{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.15);box-shadow:none}.home .card h3{color:#fff}.home .card p{color:#dbe7f8}.contact{display:grid;grid-template-columns:1fr 1fr;gap:22px}.contact .card{height:100%}.contact-row{display:flex;gap:14px;align-items:flex-start;margin:17px 0}.contact-row b{display:block;color:var(--navy)}.contact-row span{color:var(--muted);font-size:14px}.mapbox{min-height:330px;border-radius:22px;overflow:hidden;background:#e9f0f8;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;border:1px solid var(--line)}footer{background:#101d37;color:#dce6f5;padding:30px 0}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.foot small{color:#aebdd2}.note{font-size:12px;color:#8ea0ba}
-@media(max-width:850px){.links{display:none}.hero{padding:55px 0}.hero-grid,.feature,.contact{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.hero-card{order:-1}.hours{grid-template-columns:1fr}}@media(max-width:540px){.grid{grid-template-columns:1fr}.navbtn{padding:10px 12px}.brand img{height:48px}section{padding:58px 0}.section-head h2{font-size:30px}.foot{flex-direction:column;align-items:flex-start}}
+:root{
+  --navy:#172a52;
+  --blue:#285a9f;
+  --sky:#eaf4ff;
+  --coral:#d96f5f;
+  --ink:#172033;
+  --muted:#63708a;
+  --white:#fff;
+  --line:#e4eaf3;
+  --shadow:0 18px 50px rgba(23,42,82,.12);
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  color:var(--ink);
+  background:#fbfcff;
+  line-height:1.6;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.wrap{
+  max-width:1160px;
+  margin:auto;
+  padding:0 22px;
+}
+
+/* HEADER */
+
+header{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(255,255,255,.96);
+  border-bottom:1px solid var(--line);
+}
+
+.nav{
+  height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.brand img{
+  height:58px;
+  width:auto;
+  display:block;
+}
+
+.links{
+  display:flex;
+  gap:24px;
+  font-size:14px;
+  font-weight:bold;
+  color:#45536c;
+}
+
+.links a:hover{
+  color:var(--blue);
+}
+
+.navbtn{
+  background:var(--navy);
+  color:#fff;
+  padding:11px 17px;
+  border-radius:12px;
+  font-weight:bold;
+}
+
+/* HERO */
+
+.hero{
+  padding:82px 0 74px;
+  background:
+  radial-gradient(circle at 80% 20%,#e8f4ff 0,transparent 38%),
+  linear-gradient(135deg,#fff 0%,#f5f9ff 100%);
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:55px;
+  align-items:center;
+}
+
+.eyebrow{
+  display:inline-block;
+  background:#fff;
+  border:1px solid var(--line);
+  padding:7px 12px;
+  border-radius:999px;
+  color:var(--blue);
+  font-weight:bold;
+  font-size:12px;
+}
+
+h1{
+  font-size:clamp(40px,6vw,68px);
+  line-height:1.05;
+  margin:18px 0 12px;
+  color:var(--navy);
+}
+
+h1 span{
+  color:var(--coral);
+}
+
+.tag{
+  font-size:19px;
+  color:var(--muted);
+  margin-bottom:25px;
+}
+
+.telugu{
+  font-family:"Noto Sans Telugu","Nirmala UI",Arial,sans-serif;
+}
+
+.actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:13px 19px;
+  border-radius:13px;
+  font-weight:bold;
+}
+
+.primary{
+  background:var(--navy);
+  color:#fff;
+}
+
+.secondary{
+  background:#fff;
+  border:1px solid var(--line);
+  color:var(--navy);
+}
+
+.hero-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:26px;
+  padding:26px;
+  box-shadow:var(--shadow);
+}
+
+.hero-card img{
+  width:100%;
+  max-width:360px;
+  display:block;
+  margin:auto;
+}
+
+.badge{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+  margin-top:20px;
+}
+
+.badge div{
+  padding:14px;
+  background:var(--sky);
+  border-radius:15px;
+}
+
+.badge b{
+  display:block;
+  color:var(--navy);
+  font-size:18px;
+}
+
+.badge small{
+  color:var(--muted);
+}
+
+/* SECTIONS */
+
+section{
+  padding:78px 0;
+}
+
+.section-head{
+  text-align:center;
+  max-width:700px;
+  margin:0 auto 38px;
+}
+
+.section-head h2{
+  font-size:36px;
+  line-height:1.15;
+  margin:0 0 10px;
+  color:var(--navy);
+}
+
+.section-head p{
+  color:var(--muted);
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:25px;
+  box-shadow:0 10px 35px rgba(23,42,82,.06);
+}
+
+.icon{
+  font-size:28px;
+}
+
+.card h3{
+  margin:10px 0 4px;
+  color:var(--navy);
+}
+
+.card p{
+  margin:0;
+  color:var(--muted);
+  font-size:14px;
+}
+
+/* WHY */
+
+.tests{
+  background:#f4f8fd;
+}
+
+.feature{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+.feature .card{
+  display:flex;
+  gap:18px;
+  align-items:flex-start;
+}
+
+/* HOME COLLECTION */
+
+.home{
+  background:linear-gradient(135deg,var(--navy),#234b86);
+  color:#fff;
+}
+
+.home .section-head h2,
+.home .section-head p{
+  color:#fff;
+}
+
+.home .card{
+  background:rgba(255,255,255,.09);
+  border-color:rgba(255,255,255,.15);
+}
+
+.home .card h3{
+  color:#fff;
+}
+
+.home .card p{
+  color:#dbe7f8;
+}
+
+/* HOURS */
+
+.hours{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  max-width:780px;
+  margin:auto;
+}
+
+.hours .card{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.hours strong{
+  color:var(--navy);
+}
+
+/* GALLERY */
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.gallery img{
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  border-radius:20px;
+  border:1px solid var(--line);
+  box-shadow:var(--shadow);
+  transition:.3s;
+}
+
+.gallery img:hover{
+  transform:scale(1.02);
+}
+
+/* CONTACT */
+
+.contact{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+}
+
+.contact-row{
+  display:flex;
+  gap:14px;
+  align-items:flex-start;
+  margin:17px 0;
+}
+
+.contact-row b{
+  display:block;
+  color:var(--navy);
+}
+
+.contact-row span{
+  color:var(--muted);
+  font-size:14px;
+}
+
+.mapbox{
+  min-height:330px;
+  border-radius:22px;
+  background:#e9f0f8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:30px;
+  border:1px solid var(--line);
+}
+
+/* FOOTER */
+
+footer{
+  background:#101d37;
+  color:#dce6f5;
+  padding:30px 0;
+}
+
+.foot{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  align-items:center;
+}
+
+.note{
+  font-size:12px;
+  color:#8ea0ba;
+}
+
+/* MOBILE */
+
+@media(max-width:850px){
+
+  .links{
+    display:none;
+  }
+
+  .hero{
+    padding:55px 0;
+  }
+
+  .hero-grid,
+  .feature,
+  .contact{
+    grid-template-columns:1fr;
+  }
+
+  .grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .hero-card{
+    order:-1;
+  }
+
+  .hours{
+    grid-template-columns:1fr;
+  }
+
+  .gallery{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:540px){
+
+  .grid,
+  .gallery{
+    grid-template-columns:1fr;
+  }
+
+  .navbtn{
+    padding:10px 12px;
+  }
+
+  .brand img{
+    height:48px;
+  }
+
+  section{
+    padding:58px 0;
+  }
+
+  .section-head h2{
+    font-size:30px;
+  }
+
+  .foot{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .gallery img{
+    height:260px;
+  }
+}
 </style>
 </head>
+
 <body>
-<header><div class="wrap nav"><a class="brand" href="#home"><img src="sri_balaji_logo.png" alt="Sri Balaji Clinical Lab"></a><nav class="links"><a href="#services">Services</a><a href="#home-collection">Home Collection</a><a href="#hours">Timings</a><a href="#contact">Contact</a></nav><a class="navbtn" href="tel:+917780534248">Call Now</a></div></header>
+
+<header>
+<div class="wrap nav">
+
+<a class="brand" href="#home">
+<img src="sri_balaji_logo.png" alt="Sri Balaji Clinical Lab">
+</a>
+
+<nav class="links">
+<a href="#services">Services</a>
+<a href="#home-collection">Home Collection</a>
+<a href="#gallery">Gallery</a>
+<a href="#hours">Timings</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<a class="navbtn" href="tel:+917780534248">
+Call Now
+</a>
+
+</div>
+</header>
+
+
 <main id="home">
-<section class="hero"><div class="wrap hero-grid"><div><span class="eyebrow">🧪 Reliable Diagnostic Care • Rayadurg</span><h1>Sri Balaji<br><span>Clinical Lab</span></h1><p class="tag"><b>Trust in Every Test</b><br><span class="telugu">ప్రతి పరీక్షలో నమ్మకం</span></p><p style="color:var(--muted);max-width:620px">Quality-focused clinical laboratory services with convenient <b>24/7 home sample collection</b> for patients in and around Rayadurg.</p><div class="actions"><a class="btn primary" href="tel:+917780534248">📞 Call 7780534248</a><a class="btn secondary" href="https://wa.me/917780534248?text=Hello%20Sri%20Balaji%20Clinical%20Lab%2C%20I%20would%20like%20to%20enquire%20about%20a%20test." target="_blank" rel="noopener">💬 WhatsApp</a><a class="btn secondary" href="https://maps.app.goo.gl/s12JcWqWCoWxWyUE9" target="_blank" rel="noopener">📍 Get Directions</a></div></div><div class="hero-card"><img src="sri_balaji_logo.png" alt="Sri Balaji Clinical Lab logo"><div class="badge"><div><b>7 AM – 9 PM</b><small>Mon – Sat</small></div><div><b>7 AM – 2 PM</b><small>Sunday</small></div><div><b>24/7</b><small>Home Collection</small></div><div><b>Reg. 791/2021</b><small>Clinical Lab</small></div></div></div></div></section>
-<section id="services"><div class="wrap"><div class="section-head"><h2>Our Services</h2><p class="telugu">మీ ఆరోగ్య పరీక్షలకు నమ్మకమైన సేవలు</p></div><div class="grid"><div class="card"><div class="icon">🩸</div><h3>Blood Tests</h3><p>Routine and specialized blood investigations based on your prescription.</p></div><div class="card"><div class="icon">🧪</div><h3>Biochemistry</h3><p>Biochemistry investigations supported by modern laboratory analyzers.</p></div><div class="card"><div class="icon">🔬</div><h3>Hematology</h3><p>Blood count and related hematology investigations with careful processing.</p></div><div class="card"><div class="icon">💧</div><h3>Urine Tests</h3><p>Routine urine investigations and other diagnostic tests as advised.</p></div><div class="card"><div class="icon">📋</div><h3>Prescription-Based Testing</h3><p>Bring your prescription and our team can help identify the required tests.</p></div><div class="card"><div class="icon">🏠</div><h3>Home Sample Collection</h3><p>Convenient sample collection at your home, available 24/7.</p></div></div></div></section>
-<section class="tests"><div class="wrap"><div class="section-head"><h2>Why Choose Sri Balaji?</h2><p class="telugu">మీ ఆరోగ్యం మా బాధ్యత</p></div><div class="feature"><div class="card"><div class="icon">✓</div><div><h3>Patient Convenience</h3><p>Early morning opening hours and home sample collection help make testing easier.</p></div></div><div class="card"><div class="icon">✓</div><div><h3>Quality-Focused Process</h3><p>We follow a careful testing workflow with appropriate laboratory equipment.</p></div></div><div class="card"><div class="icon">✓</div><div><h3>Easy Communication</h3><p>Call or WhatsApp for test enquiries, timings and home collection requests.</p></div></div><div class="card"><div class="icon">✓</div><div><h3>Local & Accessible</h3><p>Conveniently located opposite Molakmuru Bus Stand in Rayadurg.</p></div></div></div></div></section>
-<section id="home-collection" class="home"><div class="wrap"><div class="section-head"><h2>24/7 Home Sample Collection</h2><p>Stay home. We can come to you.</p><p class="telugu">ఇంటివద్దే నమూనా సేకరణ సేవ అందుబాటులో ఉంది.</p></div><div class="grid"><div class="card"><h3>📲 Book a Collection</h3><p>Call or WhatsApp <b>7780534248</b> to enquire about home sample collection.</p></div><div class="card"><h3>🕐 Available 24/7</h3><p>Home sample collection is available around the clock, subject to scheduling.</p></div><div class="card"><h3>📍 Rayadurg & Nearby</h3><p>Ask our team about service availability for your area.</p></div></div></div></section>
-<section id="hours"><div class="wrap"><div class="section-head"><h2>Opening Hours</h2><p class="telugu">ల్యాబ్ సమయాలు</p></div><div class="hours"><div class="card"><strong>Monday – Saturday</strong><span>7:00 AM – 9:00 PM</span></div><div class="card"><strong>Sunday</strong><span>7:00 AM – 2:00 PM</span></div></div></div></section>
-<section id="contact" class="tests"><div class="wrap"><div class="section-head"><h2>Contact & Location</h2><p>We are ready to help with your diagnostic test enquiries.</p></div><div class="contact"><div class="card"><div class="contact-row"><div>📞</div><div><b>Call / WhatsApp</b><span><a href="tel:+917780534248">7780534248</a> · <a href="tel:+919391192292">9391192292</a></span></div></div><div class="contact-row"><div>✉️</div><div><b>Email</b><span><a href="mailto:Sribalajiclinicallabrdg@gmail.com">Sribalajiclinicallabrdg@gmail.com</a></span></div></div><div class="contact-row"><div>📍</div><div><b>Address</b><span>Opp. Molakmuru Bus Stand, VA Bazaar Complex, Room No. 4, Rayadurg – 515865, Ananthapuramu Dist. (A.P.)</span></div></div><div class="contact-row"><div>🧾</div><div><b>Registration</b><span>Clinical Lab Reg. No.: 791/2021</span></div></div><div class="actions"><a class="btn primary" href="https://maps.app.goo.gl/s12JcWqWCoWxWyUE9" target="_blank" rel="noopener">📍 Open in Google Maps</a></div></div><div class="mapbox"><div><div style="font-size:48px">📍</div><h3 style="margin:5px 0;color:var(--navy)">Sri Balaji Clinical Lab</h3><p style="color:var(--muted)">Opp. Molakmuru Bus Stand<br>VA Bazaar Complex, Room No. 4<br>Rayadurg – 515865</p><a class="btn secondary" href="https://maps.app.goo.gl/s12JcWqWCoWxWyUE9" target="_blank" rel="noopener">Get Directions →</a></div></div></div></div></section>
+
+<!-- HERO -->
+
+<section class="hero">
+<div class="wrap hero-grid">
+
+<div>
+
+<span class="eyebrow">
+🧪 Reliable Diagnostic Care • Rayadurg
+</span>
+
+<h1>
+Sri Balaji<br>
+<span>Clinical Lab</span>
+</h1>
+
+<p class="tag">
+<b>Trust in Every Test</b><br>
+<span class="telugu">ప్రతి పరీక్షలో నమ్మకం</span>
+</p>
+
+<p style="color:var(--muted);max-width:620px">
+Quality-focused clinical laboratory services with convenient
+<b>24/7 home sample collection</b>
+for patients in and around Rayadurg.
+</p>
+
+<div class="actions">
+
+<a class="btn primary" href="tel:+917780534248">
+📞 Call 7780534248
+</a>
+
+<a class="btn secondary"
+href="https://wa.me/917780534248?text=Hello%20Sri%20Balaji%20Clinical%20Lab%2C%20I%20would%20like%20to%20enquire%20about%20a%20test"
+target="_blank">
+💬 WhatsApp
+</a>
+
+<a class="btn secondary"
+href="https://maps.app.goo.gl/s12JcWqWCoWxWyUE9"
+target="_blank">
+📍 Get Directions
+</a>
+
+</div>
+</div>
+
+
+<div class="hero-card">
+
+<img src="sri_balaji_logo.png" alt="Sri Balaji Clinical Lab">
+
+<div class="badge">
+
+<div>
+<b>7 AM – 9 PM</b>
+<small>Mon – Sat</small>
+</div>
+
+<div>
+<b>7 AM – 2 PM</b>
+<small>Sunday</small>
+</div>
+
+<div>
+<b>24/7</b>
+<small>Home Collection</small>
+</div>
+
+<div>
+<b>Reg. 791/2021</b>
+<small>Clinical Lab</small>
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+
+
+<!-- SERVICES -->
+
+<section id="services">
+<div class="wrap">
+
+<div class="section-head">
+<h2>Our Services</h2>
+<p class="telugu">
+మీ ఆరోగ్య పరీక్షలకు నమ్మకమైన సేవలు
+</p>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<div class="icon">🩸</div>
+<h3>Blood Tests</h3>
+<p>Routine and specialized blood investigations based on your prescription.</p>
+</div>
+
+<div class="card">
+<div class="icon">🧪</div>
+<h3>Biochemistry</h3>
+<p>Biochemistry investigations supported by modern laboratory analyzers.</p>
+</div>
+
+<div class="card">
+<div class="icon">🔬</div>
+<h3>Hematology</h3>
+<p>Blood count and related hematology investigations with careful processing.</p>
+</div>
+
+<div class="card">
+<div class="icon">💧</div>
+<h3>Urine Tests</h3>
+<p>Routine urine investigations and other diagnostic tests as advised.</p>
+</div>
+
+<div class="card">
+<div class="icon">📋</div>
+<h3>Prescription-Based Testing</h3>
+<p>Bring your prescription and our team can help identify the required tests.</p>
+</div>
+
+<div class="card">
+<div class="icon">🏠</div>
+<h3>Home Sample Collection</h3>
+<p>Convenient sample collection at your home, available 24/7.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- WHY CHOOSE -->
+
+<section class="tests">
+<div class="wrap">
+
+<div class="section-head">
+<h2>Why Choose Sri Balaji?</h2>
+<p class="telugu">మీ ఆరోగ్యం మా బాధ్యత</p>
+</div>
+
+<div class="feature">
+
+<div class="card">
+<div class="icon">✓</div>
+<div>
+<h3>Patient Convenience</h3>
+<p>Early morning opening hours and home sample collection help make testing easier.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="icon">✓</div>
+<div>
+<h3>Quality-Focused Process</h3>
+<p>We follow a careful testing workflow with appropriate laboratory equipment.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="icon">✓</div>
+<div>
+<h3>Easy Communication</h3>
+<p>Call or WhatsApp for test enquiries, timings and home collection requests.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="icon">✓</div>
+<div>
+<h3>Local & Accessible</h3>
+<p>Conveniently located opposite Molakmuru Bus Stand in Rayadurg.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- HOME COLLECTION -->
+
+<section id="home-collection" class="home">
+<div class="wrap">
+
+<div class="section-head">
+<h2>24/7 Home Sample Collection</h2>
+<p>Stay home. We can come to you.</p>
+<p class="telugu">
+ఇంటివద్దే నమూనా సేకరణ సేవ అందుబాటులో ఉంది.
+</p>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>📲 Book a Collection</h3>
+<p>
+Call or WhatsApp <b>7780534248</b>
+to enquire about home sample collection.
+</p>
+</div>
+
+<div class="card">
+<h3>🕐 Available 24/7</h3>
+<p>
+Home sample collection is available around the clock, subject to scheduling.
+</p>
+</div>
+
+<div class="card">
+<h3>📍 Rayadurg & Nearby</h3>
+<p>
+Ask our team about service availability for your area.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- GALLERY -->
+
+<section id="gallery">
+<div class="wrap">
+
+<div class="section-head">
+<h2>Our Lab Gallery</h2>
+<p>Take a look at Sri Balaji Clinical Lab.</p>
+</div>
+
+<div class="gallery">
+
+<img src="images/Screenshot_20260907_153420.jpg"
+alt="Sri Balaji Clinical Lab">
+
+<img src="images/Screenshot_20260907_153455.jpg"
+alt="Sri Balaji Clinical Lab Interior">
+
+<img src="images/Screenshot_20260907_153521.jpg"
+alt="Sri Balaji Clinical Lab">
+
+</div>
+
+</div>
+</section>
+
+
+<!-- HOURS -->
+
+<section id="hours">
+<div class="wrap">
+
+<div class="section-head">
+<h2>Opening Hours</h2>
+<p class="telugu">ల్యాబ్ సమయాలు</p>
+</div>
+
+<div class="hours">
+
+<div class="card">
+<strong>Monday – Saturday</strong>
+<span>7:00 AM – 9:00 PM</span>
+</div>
+
+<div class="card">
+<strong>Sunday</strong>
+<span>7:00 AM – 2:00 PM</span>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="tests">
+<div class="wrap">
+
+<div class="section-head">
+<h2>Contact & Location</h2>
+<p>We are ready to help with your diagnostic test enquiries.</p>
+</div>
+
+<div class="contact">
+
+<div class="card">
+
+<div class="contact-row">
+<div>📞</div>
+<div>
+<b>Call / WhatsApp</b>
+<span>
+<a href="tel:+917780534248">7780534248</a>
+·
+<a href="tel:+919391192292">9391192292</a>
+</span>
+</div>
+</div>
+
+<div class="contact-row">
+<div>✉️</div>
+<div>
+<b>Email</b>
+<span>
+<a href="mailto:Sribalajiclinicallabrdg@gmail.com">
+Sribalajiclinicallabrdg@gmail.com
+</a>
+</span>
+</div>
+</div>
+
+<div class="contact-row">
+<div>📍</div>
+<div>
+<b>Address</b>
+<span>
+Opp. Molakmuru Bus Stand,
+VA Bazaar Complex, Room No. 4,
+Rayadurg – 515865,
+Ananthapuramu Dist. (A.P.)
+</span>
+</div>
+</div>
+
+<div class="contact-row">
+<div>🧾</div>
+<div>
+<b>Registration</b>
+<span>
+Clinical Lab Reg. No.: 791/2021
+</span>
+</div>
+</div>
+
+<div class="actions">
+
+<a class="btn primary"
+href="https://maps.app.goo.gl/s12JcWqWCoWxWyUE9"
+target="_blank">
+📍 Open in Google Maps
+</a>
+
+</div>
+
+</div>
+
+
+<div class="mapbox">
+
+<div>
+
+<div style="font-size:48px">📍</div>
+
+<h3 style="margin:5px 0;color:var(--navy)">
+Sri Balaji Clinical Lab
+</h3>
+
+<p style="color:var(--muted)">
+Opp. Molakmuru Bus Stand<br>
+VA Bazaar Complex, Room No. 4<br>
+Rayadurg – 515865
+</p>
+
+<a class="btn secondary"
+href="https://maps.app.goo.gl/s12JcWqWCoWxWyUE9"
+target="_blank">
+Get Directions →
+</a>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
 </main>
-<footer><div class="wrap foot"><div><b>Sri Balaji Clinical Lab</b><div class="note">Trust in Every Test • Rayadurg</div></div><small>© 2026 Sri Balaji Clinical Lab. All rights reserved.</small></div></footer>
-</body></html>
+
+
+<footer>
+
+<div class="wrap foot">
+
+<div>
+<b>Sri Balaji Clinical Lab</b>
+<div class="note">
+Trust in Every Test • Rayadurg
+</div>
+</div>
+
+<small>
+© 2026 Sri Balaji Clinical Lab. All rights reserved.
+</small>
+
+</div>
+
+</footer>
+
+</body>
+</html>
